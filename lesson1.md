@@ -49,7 +49,7 @@ VALUES ( 'John', 'Kavuma', '2021-05-20', 'Donda' ),
 ## Question?
 How can we insert some values while skipping other columns?
 
-## Key Takeaways
+## Key Take aways
 - [x] USE keyword
 - [x] primary key
 - [x] data types
