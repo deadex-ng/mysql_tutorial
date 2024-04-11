@@ -5,7 +5,7 @@ We use the SELECT command
 ```sql
 SELECT * FROM test.patients;
 ```
-## ist all the rows of the specified columns
+## List all the rows of the specified columns
 ```sql
 SELECT first_name, last_name, dob from patients;
 ```
