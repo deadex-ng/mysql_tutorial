@@ -1,5 +1,5 @@
 # Creating and Populating a Database
-https://github.com/deadex-ng/mysql_tutorial/
+
 ## Create a database
 
 ```sql 
@@ -10,7 +10,7 @@ CREATE DATABASE test;
 ```sql
 USE test;
 ```
-
+https://github.com/deadex-ng/mysql_tutorial/
 ## Creating a table
 ```sql
 CREATE TABLE patients (
