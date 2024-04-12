@@ -30,7 +30,7 @@ SELECT first_name, last_name, dob, TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age, v
 This method is faulty.
 
 
-Let's add a new role and calculate the age again
+Let's add a new row and calculate the age again
 ```sql
 INSERT INTO patients ( first_name, last_name, dob, village)
 VALUES ( 'Timothy', 'Phazi', '2024-01-31', 'Michiru' );
