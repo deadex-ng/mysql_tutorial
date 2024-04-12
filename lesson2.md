@@ -34,7 +34,7 @@ Let's add a new row and calculate the age again
 ```sql
 INSERT INTO patients ( first_name, last_name, dob, village)
 VALUES ( 'Timothy', 'Phazi', '2024-01-31', 'Michiru' );
-
+```
 ## Using ORDER BY
 Order the results by first_name
 ```sql
