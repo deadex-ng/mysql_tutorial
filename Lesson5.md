@@ -40,3 +40,20 @@ VALUES (1,1,'2024-01-01'),
 (3,4,'2024-03-20');
 
 ```
+
+## Now that our database is set let's ask some questions
+- [ ] What are the names of the patients who are enrolled in our programs
+- [ ] In which month did we enroll a lot of patients
+
+## Joins
+```sql
+SELECT 
+    first_name, last_name
+FROM
+    patient_enrollemnt
+        JOIN
+    patients ON patient_enrollemnt.patient_id = patients.patient_id;
+```
+
+How can we remove duplicates?
+
